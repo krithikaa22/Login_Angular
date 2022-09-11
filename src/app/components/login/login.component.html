@@ -1,0 +1,25 @@
+<div class="loginFlex">
+    <div>
+        <img src="../../../assets/login.jpg" alt="">
+    </div>
+    <form [formGroup] = "formdata" class="loginForm">
+        <p>Login</p>
+        <input 
+            formControlName="email"
+            required
+            name="emailID"
+            type="text" 
+            (change)="setEmail(formdata.value)"
+            placeholder="Enter Email ID"
+        >
+        <input 
+        formControlName="password"
+            required
+            name="password"
+            type="password" 
+            placeholder="Enter Password"
+            (change)="setPw(formdata.value.password)"
+        >
+        <button type="submit" (click)=" onSubmitHandler()">Login</button>
+    </form>
+</div>

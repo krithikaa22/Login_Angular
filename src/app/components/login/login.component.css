@@ -1,0 +1,51 @@
+
+
+.loginFlex{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    /* padding: 3vw; */
+    border-radius: 12px;
+}
+
+.loginFlex img{
+    width: 30vw;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 4vw;
+    background-color: rgb(25, 7, 55);
+    width: fit-content;
+    height: 40vh;
+    margin: auto;
+    margin-right: 0;
+    font-family: monospace;
+    border-radius: 12px;
+}
+.loginForm input, .loginForm button{
+    width: 30vw;
+    margin: auto;
+    padding: 0.5vw;
+    border-radius: 10px;
+    border: none;
+}
+.loginForm button{
+    color: white;
+    background-color: rgb(112, 144, 144);
+    font-weight: 900;
+    font-size: 1.25vw;
+}
+.loginForm p{
+    font-size: 3vw;
+    margin-top: 0%;
+    color: white;
+}
+.loginForm input{
+    border: 1px solid black;
+}

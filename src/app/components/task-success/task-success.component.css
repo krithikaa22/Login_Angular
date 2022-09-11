@@ -1,0 +1,23 @@
+.successFlex{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    padding: 3vw;
+    border-radius: 12px;
+}
+
+.successFlex img{
+    width: 30vw;
+}
+.successFlex > div{
+    width: 30vw;
+}
+.successFlex p{
+    font-family: monospace;
+    font-size: 3vw;
+    font-weight: 900;
+}
